@@ -1,0 +1,10 @@
+{
+	"manifest_version": 2,
+	"name": "Remind you everything",
+	"version": "1.0",
+	"permissions": ["activeTab", "storage", "https://www.youtube.com/*"],
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_title": "Remind you everything"
+	}
+}
